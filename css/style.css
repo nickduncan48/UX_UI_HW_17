@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #6E726B;
+    padding: 15px;
+}
+header ul {
+    float: right;
+    color: white;
+}
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+.intro { 
+    background-color:black;
+}
+.context {
+    font-family:Arial, Helvetica, sans-serif;
+   padding-left: 200px;
+   background-color:#DDA602;  
+}
+button { 
+    background-color: #0C3A6F;
+}
+
+
+
+.contact {
+
+}
+
+.social {
+    
+}
