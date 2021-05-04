@@ -1,60 +1,44 @@
 body {
+    margin: 0;
     background-color: black;
-}
-.logo {
-    display: inline-block;
-    width: 200px;
-    height: 100px;
-}
-
-.header {
-    display: flex;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    background-color: grey;
-    padding: 20px;
-}
-
-li {
-    display: inline-block;
-    padding: 0px 40px;
+  }
+  header {
+    background-color: #373738;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
     color: white;
-    font-size: 30px;
-}
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  .logo {
+      width: 100px;
+      height: 50px;
+  }
 
 h1 {
     color: white;
     font-size: 45px;
 }
-
 h2 {
     color:black;
-    font-size: 35px;
-}
-
-h3 {
-    color: white;
-    font-size: 25px;
-    padding-left: 300px;
-}
-
-h4 { 
-    color: white;
+    font-size: 20px;
 }
 
 .context {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     font-family:Arial, Helvetica, sans-serif;
     padding-left: 300px;
     background-color:#DDA602;  
-    width: 60%;
-    padding-bottom: 0;
-    border: .5px solid;
-    box-shadow: 5px 10px white;
+    width: 40%;
+    height: 30%;
+    border: 1px solid;
+    box-shadow: 1px 5px white;
     border-radius: 100px;
  }
 
@@ -67,35 +51,22 @@ h4 {
 }
 
 .heroImg {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     justify-content: right;
-    padding-left: 600px;
-}
-
-.footer {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-content: center;
-}
-
-.linkedin {
     padding-left: 300px;
 }
-
-.twitter {
-    padding-left: 300px;
-}
-
-.bottomContent {
-    display: grid;
-    grid-template-rows: 50% 50%;
-    justify-content: center;
-
-}
-
-
-
-
- 
-
+  footer {
+    background-color: #373738;
+    padding: 5px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+  
